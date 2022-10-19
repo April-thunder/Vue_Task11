@@ -55,7 +55,7 @@
               cathegory: "pizza"
             },
             {
-              image: "sushi_double-trouble.png",
+              image: "/sushi_double-trouble.png",
               name: "Double Trouble Sushi",
               price: 280,
               article: "t2",
