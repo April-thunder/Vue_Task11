@@ -48,7 +48,7 @@
         return {
           products:[
             {
-              image: "pizza_quattro.png",
+              image: "../images/pizza_quattro.png",
               name: "Quattro formaggi",
               price: 290,
               article: "t1",
