@@ -48,14 +48,14 @@
         return {
           products:[
             {
-              image: "../images/pizza_quattro.png",
+              image: "pizza_quattro.png",
               name: "Quattro formaggi",
               price: 290,
               article: "t1",
               cathegory: "pizza"
             },
             {
-              image: "/sushi_double-trouble.png",
+              image: "sushi_double-trouble.png",
               name: "Double Trouble Sushi",
               price: 280,
               article: "t2",
