@@ -1,6 +1,6 @@
 <template>
     <div class="food-block">
-        <img class="food-frame" src="../../public/images/frame.svg" alt="frame" />
+        <img class="food-frame" src="/public/images/frame.svg" alt="frame" />
           <div class="food-block__content">
             <img
               class="pizza-image"
