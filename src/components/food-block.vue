@@ -4,7 +4,7 @@
           <div class="food-block__content">
             <img
               class="pizza-image"
-              :src="'../../public/images/' + product_data.image"
+              :src="'/public/images/' + product_data.image"
               alt="pizza-img"
             />
             <div class="pizza__title-block">
