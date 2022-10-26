@@ -11,7 +11,7 @@
             </div>
             <img
                 class="main-image"
-                src="../images/main.png"
+                src="../../public/images/main.png"
                 alt="pizza-image"
             />
         </div>

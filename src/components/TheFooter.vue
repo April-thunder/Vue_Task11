@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="footer-wrapper">
       <p class="copyright">© Classic Family Restaurant</p>
-      <img class="logo" src="../images/logo.svg" alt="logo" />
+      <img class="logo" src="../../public/images/logo.svg" alt="logo" />
       <p class="developer">
         Made with delight by
         <span class="developer--bold">harmuder</span>

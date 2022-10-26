@@ -1,6 +1,6 @@
 <template>
   <div class="cart-block">
-    <img class="cart-image" src="../images/shopping-bag.png" alt="cart" />
+    <img class="cart-image" src="../../public/images/shopping-bag.png" alt="cart" />
     <p class="cart-quantity">{{counter}}</p>
   </div>
 </template>
