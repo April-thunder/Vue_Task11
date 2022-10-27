@@ -1,10 +1,10 @@
 <template>
     <div class="food-block">
-        <img class="food-frame" src="/public/images/frame.svg" alt="frame" />
+        <img class="food-frame" src="/images/frame.svg" alt="frame" />
           <div class="food-block__content">
             <img
               class="pizza-image"
-              :src="'/public/images/' + product_data.image"
+              :src="'/images/' + product_data.image"
               alt="pizza-img"
             />
             <div class="pizza__title-block">
@@ -17,7 +17,7 @@
             <p class="pizza-price">{{product_data.price}}</p>
             <button class="basket" 
                     @click="counter()">
-                    <img class="basket-icon" src="../../public/images/pizz-block-icon.svg" alt="basket-icon"/>
+                    <img class="basket-icon" src="/images/pizz-block-icon.svg" alt="basket-icon"/>
             </button>
           </div>
     </div>
