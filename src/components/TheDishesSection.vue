@@ -27,7 +27,7 @@
       <button class="update-btn">
         <img
           class="update-img"
-          src="../../public/images/update-btn.svg"
+          src="/images/update-btn.svg"
           alt="update-image"
         />
       </button>

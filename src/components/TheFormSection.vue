@@ -22,7 +22,7 @@
         <button class="btn__call">Call Back</button>
       </form>
     </div>
-    <img class="car" src="../../public/images/car.png" alt="car" />
+    <img class="car" src="/images/car.png" alt="car" />
   </section>
 </template>
 

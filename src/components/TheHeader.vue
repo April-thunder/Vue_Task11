@@ -13,7 +13,7 @@
             <a class="menu-link" href="#">Contacts</a>
           </li>
         </ul>
-        <img class="logo-image" src="../../public/images/logo.svg" alt="logo" />
+        <img class="logo-image" src="/images/logo.svg" alt="logo" />
         <div class="header-communication">
           <p class="work-time">Daily 11am - 9pm</p>
           <a class="phone-link" href="tel:+0 800 33 08 98">0 800 33 08 98</a>
@@ -64,7 +64,7 @@
 }
 
 .phone-link {
-  background-image: url("../../public/images/phone.svg");
+  background-image: url("/images/phone.svg");
   background-repeat: no-repeat;
   background-position: middle left;
   padding: 10px 0px 10px 55px;

@@ -1,12 +1,12 @@
 <template>
     <section class="slides-section">
         <div class="container slides-container">
-            <img class="slide" src="../../public/images/slide01.jpg" alt="slide" />
-            <img class="slide" src="../../public/images/slide02.jpg" alt="slide" />
-            <img class="slide" src="../../public/images/slide03.jpg" alt="slide" />
-            <img class="slide" src="../../public/images/slide04.jpg" alt="slide" />
-            <img class="slide" src="../../public/images/slide05.jpg" alt="slide" />
-            <img class="slide" src="../../public/images/slide06.jpg" alt="slide" />
+            <img class="slide" src="/images/slide01.jpg" alt="slide" />
+            <img class="slide" src="/images/slide02.jpg" alt="slide" />
+            <img class="slide" src="/images/slide03.jpg" alt="slide" />
+            <img class="slide" src="/images/slide04.jpg" alt="slide" />
+            <img class="slide" src="/images/slide05.jpg" alt="slide" />
+            <img class="slide" src="/images/slide06.jpg" alt="slide" />
             <a class="insta-link" href="#">
                 <p class="insta-text">
                     Instagram:
