@@ -12,7 +12,7 @@
               <p class="pizza-size">32cm</p>
             </div>
             <p class="pizza-ingredient">
-              Dough, Mozzarella, Cheddar, Blue, Parmesan
+              Dough, Mozzarella, Cheddar, Parmesan 
             </p>
             <p class="pizza-price">{{product_data.price}}</p>
             <button class="basket" 
