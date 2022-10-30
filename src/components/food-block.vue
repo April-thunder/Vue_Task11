@@ -16,7 +16,7 @@
             </p>
             <p class="pizza-price">{{product_data.price}}</p>
             <button class="basket" 
-                    @click="counter()">
+                    @click="counter">
                     <img class="basket-icon" src="/images/pizz-block-icon.svg" alt="basket-icon"/>
             </button>
           </div>

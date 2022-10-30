@@ -21,7 +21,7 @@
           v-for="product in products"
           :key="product.article"
           v-bind:product_data="product"
-          :counter="counterParent"
+          @counter="counterParent"
         />
        </div>
       <button class="update-btn">
