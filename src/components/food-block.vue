@@ -46,7 +46,7 @@
         },
         computed: {},
         methods: {
-          // counter() {
+          // counter()  {
           //   this.$emit('counter')++
           // }
           
