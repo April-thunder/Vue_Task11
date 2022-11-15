@@ -3,11 +3,11 @@
     <div class="container">
       <div class="cart-wrapper">
         <div class="price-block">
-          <p class="price-line">= <span class="price">0 р</span></p>
+          <p class="price-line">= <span class="price"> {{priceCounter}} р</span></p>
         </div>
         <cartblock />
       </div>
-      <h2 class="dishes-section__title">Popular dishes {{counter}}</h2>
+      <h2 class="dishes-section__title">Popular dishes {{counterParent}}</h2>
       <div class="tabs-wrapper">
         <button class="tab">All</button>
         <button class="tab">Pizza</button>
@@ -21,7 +21,7 @@
           v-for="product in products"
           :key="product.article"
           v-bind:product_data="product"
-          @counter="counterParent"
+          @counter="counterAdd, priceAdd"
         />
        </div>
       <button class="update-btn">
@@ -133,13 +133,17 @@
             },
 
           ],
-          counter: 0
+          counterParent: 0,
+          priceCounter: 0
         }
       },
       computed: {},
       methods: {
-        counterParent() {
-          counter
+        counterAdd() {
+          this.counterParent++
+        },
+        priceAdd() {
+          this.priceCounter++
         }
         
       },
