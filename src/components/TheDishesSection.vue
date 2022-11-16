@@ -49,7 +49,7 @@
           products:[
             {
               image: "pizza_quattro.png",
-              name: "Quattro formaggi",
+              name: "Quattro formaggie",
               price: 290,
               article: "t1",
               cathegory: "pizza"
