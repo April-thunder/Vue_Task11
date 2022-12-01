@@ -25,7 +25,7 @@
   
   <script>
     export default {
-        name: "food-block",
+        name: "TheFoodBlock",
         props: 
           {
           product_data: {
