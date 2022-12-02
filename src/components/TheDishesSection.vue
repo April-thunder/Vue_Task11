@@ -69,7 +69,7 @@ export default {
           name: "Cocao Dessert",
           price: 135,
           article: "t3",
-          cathegory: "pizza",
+          cathegory: "dessert",
         },
         {
           image: "classic_sushi.png",
@@ -118,7 +118,7 @@ export default {
           name: "Berry Desert",
           price: 180,
           article: "t10",
-          cathegory: "dasert",
+          cathegory: "dessert",
         },
         {
           image: "pizza_dimare.png",
