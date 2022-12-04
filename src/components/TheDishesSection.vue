@@ -13,13 +13,15 @@
         </div>
       </div>
       <h2 class="dishes-section__title">Popular dishes</h2>
-      <div class="tabs-wrapper">
-        <button class="tab">All</button>
-        <button class="tab">Pizza</button>
-        <button class="tab">Sushi</button>
-        <button class="tab">Salad</button>
-        <button class="tab">Dessert</button>
-        <button class="tab">Drinks</button>
+      <div 
+      class="tabs-wrapper">
+        <button 
+          class="tab"
+          v-for="cathegoryDish in dishes"
+          :key="cathegoryDish" 
+          @click="filterDishes(cathegoryDish)">
+          {{cathegoryDish}}
+        </button>
       </div>
       <div class="food-wrapper">
         <TheFoodBlock
@@ -40,13 +42,22 @@
   </section>
 </template>
 <script>
+
+const dishes = [
+  'all',
+  'pizza',
+  'sushi',
+  'dessert',
+  'salad',
+  'drink'
+]
+
 import TheFoodBlock from "./TheFoodBlock.vue";
 export default {
   name: "TheDishesSection",
   components: {
     TheFoodBlock,
   },
-  props: {},
   data() {
     return {
       products: [
@@ -111,7 +122,7 @@ export default {
           name: "Salad Cylinder",
           price: 288,
           article: "t9",
-          cathegory: "pizza",
+          cathegory: "salad",
         },
         {
           image: "dessert_berry.png",
@@ -135,11 +146,12 @@ export default {
           cathegory: "salad",
         },
       ],
+
       counterParent: 0,
       priceCounter: 0,
+      dishes,
     };
   },
-  computed: {},
   methods: {
     counterAdd() {
       this.counterParent++;
@@ -147,8 +159,20 @@ export default {
     priceAdd() {
       this.priceCounter++;
     },
+
+    resetFilter() {
+      this.products = this.products;
+    },
+   
+    filterDishes (cathegoryName) {
+      this.resetFilter();
+        if (cathegoryName !== 'all') {
+          this.products = this.products.filter((products) => {
+          return products.cathegory === cathegoryName
+        })
+      }
+    }   
   },
-  watch: {},
 };
 </script>
 
