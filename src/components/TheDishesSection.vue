@@ -166,6 +166,7 @@ export default {
   background-repeat: no-repeat;
   transform: rotate(180deg);
   background-size: 100%;
+  
   background-position: center;
   width: 130px;
   height: 50px;
@@ -182,7 +183,7 @@ export default {
 .dishes-section__title {
   font-weight: 700;
   font-size: 48px;
-  line-height: 59px;
+  line-height:  59px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -190,7 +191,7 @@ export default {
   max-width: 830px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content:  space-between;
 }
 .tab {
   background: #eceef6;
